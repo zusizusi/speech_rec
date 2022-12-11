@@ -22,7 +22,7 @@ def listen_voice():
                 return voice_text, False
     except:
         print("sorry I could not listen")
-        return "failed"
+        return "failed", False
 
 
 def callback_srv(data):
